@@ -67,6 +67,7 @@ function App() {
   return (
     <div className="App">
       <h1>Daftar Pengguna Situs Bokep Gacor</h1>
+      <h4>Kalau dipencet muncul bokepnya jir</h4>
       <div className="user-list">
         {users.map(user => (
           <div key={user.id} className="user-card" onClick={() => userClick(user.id)}>
