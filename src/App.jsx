@@ -66,8 +66,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Daftar Pengguna Situs Bokep Gacor</h1>
-      <h4>Kalau dipencet muncul bokepnya jir</h4>
+      <h1>Daftar Pengguna situs Zeus gacor 88</h1>
+      <h4>Sumpah mereka udh menang 10 juta miliar 192740123 !!!</h4>
       <div className="user-list">
         {users.map(user => (
           <div key={user.id} className="user-card" onClick={() => userClick(user.id)}>
