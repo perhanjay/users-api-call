@@ -1,0 +1,13 @@
+@import 'tailwindcss'
+
+.App {
+  @apply text-center p-[2rem]
+}
+
+.user-list {
+  @apply grid px-5 gap-4 mt-8 [grid-template-columns:repeat(auto-fill,minmax(250px,1fr))]
+}
+
+.user-card {
+  @apply border-[1px] border-solid border-[#ddd] rounded-[8px] p-[1rem] text-left [box-shadow:0_2px_4px_rgba(0,0,0,0.1)]
+}
